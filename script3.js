@@ -2,15 +2,12 @@
 //contrasenia debe tener mas de 5 caracteres, es obligatoria
 
 
-//telefono debe tener exactamente 8 digitos, no es obligatoria
-//contrasenia debe tener mas de 5 caracteres, es obligatoria
-
-
-
+datos = []
 function validar(){
-    let button = document.getElementById("button")
-    let telefonoInput = document.getElementById(telefono)
-    let contrasenia = document.getElementById("password")
+    const button = document.getElementById("button");
+    const telefonoInput = document.getElementById=("telefono");
+    const contrasenia = document.getElementById("password");
+    preventdefault()
     console.log(telefonoInput)
 
     if telefonoInput == 8{
@@ -33,13 +30,24 @@ function validar(){
 
 function almacenarInformacion(){
 
+eDatos = telefono+contrasenia
+
+push eDatos
+
+
+
 
 }
 
 
-function mostrarDatosTabla(){}
+function mostrarDatosTabla(){
 
-function eliminarDatos(){}
+}
+
+function eliminarDatos(){
+    Pop datos
+
+}
 
 
 function actualizarDatos(){}
