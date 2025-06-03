@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Validación</title>
+    
+</head>
+<body>
+
+    <form id="miFormulario">
+         <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono">
+        <span class="error" id="errorTelefono"></span>
+        <br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password">
+        <span class="error" id="errorPassword"></span>
+        <br>
+
+        <button type="button" onclick="validar()" id="btn">Enviar</button>
+    </form>
+
+    
+    <table>
+        <thead>
+            <tr>
+                <th>telefono</th>
+                <th>contrasenia</th>
+                <th>accion</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpoTabla">
+
+        </tbody>
+    </table>
+
+</body>
+</html>
